@@ -1,0 +1,33 @@
+.color-type {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.color-type button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1.02rem;
+  box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.1);
+}
+
+button.active {
+  background-color: rgb(243, 188, 188);
+  color: #fff;
+}
+
+.colorBox {
+  background: rgba(141, 137, 137, 0.274);
+  padding: 0.6rem 1.2rem;
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  width: 80%;
+  max-width: 50rem;
+  text-align: center;
+}
+
+.color {
+  letter-spacing: 0.05rem;
+  font-size: 0.95rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+}

@@ -1,0 +1,20 @@
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  border: none;
+  appearance: none;
+  outline: none;
+  padding: 1rem 2.4rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  border-radius: 0.2rem;
+  letter-spacing: 0.03rem;
+}
+
+.container > .btn {
+  font-weight: 600;
+  width: 50%;
+  max-width: 500px;
+}
